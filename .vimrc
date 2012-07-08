@@ -1,3 +1,9 @@
+" GVim
+if has('gui_running')
+  colorscheme desert
+  set guifont="Inconsolata Medium 12"
+endif
+
 " Pathogen
 call pathogen#infect()
 

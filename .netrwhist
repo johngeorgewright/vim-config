@@ -1,11 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/john/Workspace/amaysim-cms'
-let g:netrw_dirhist_2='/home/john/Workspace/amaysim-cms/public'
-let g:netrw_dirhist_3='/home/john/Workspace/amaysim/cms/public/images'
-let g:netrw_dirhist_4='/home/john/Workspace/amaysim/cms/public/images/assets'
-let g:netrw_dirhist_5='/home/john/Workspace/amaysim/cms/public/images'
-let g:netrw_dirhist_6='/home/john/Workspace/amaysim/cms/public'
-let g:netrw_dirhist_7='/home/john/Workspace/babcock-support-map/lib/Babcock/Writer'
-let g:netrw_dirhist_8='/home/john/Workspace/amaysim/cms/public/assets/stylesheets'
-let g:netrw_dirhist_9='/home/john/Workspace/mouse/node_modules/express/lib/view'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/home/john/Workspace/mouse/views/entry'

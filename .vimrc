@@ -6,6 +6,7 @@ endif
 
 " Pathogen
 call pathogen#infect()
+call pathogen#helptags()
 
 " Syntax
 syntax on
@@ -23,4 +24,7 @@ filetype plugin indent on
 
 " Searching
 set incsearch
+
+" Leader
+let mapleader = ","
 

@@ -28,3 +28,6 @@ set incsearch
 " Leader
 let mapleader = ","
 
+" CoffeeScript
+let coffee_compile_vert = 1
+

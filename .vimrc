@@ -12,6 +12,7 @@ call pathogen#helptags()
 syntax on
 au BufNewFile,BufRead *.conf set filetype=apache
 set efm=jade:%f:%l:%c:%t:%m
+filetype plugin on
 
 " Indentation
 set expandtab
@@ -28,4 +29,8 @@ set incsearch
 
 " Leader
 let mapleader = ","
+
+" CoffeeScript
+let coffee_compile_vert = 1
+au BufNewFile,BufReadPost *.coffee setl foldmethod=indent
 

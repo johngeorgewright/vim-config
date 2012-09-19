@@ -1,0 +1,6 @@
+/*jslint browser: true, devel: true, node: true, regexp: true, sloppy: true, plusplus: true, white: true*/
+
+/*global jQuery, $, YUI*/
+
+/*vim: set ft=javascript:*/
+

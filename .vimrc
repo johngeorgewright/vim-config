@@ -11,6 +11,7 @@ call pathogen#helptags()
 " Syntax
 syntax on
 au BufNewFile,BufRead *.conf set filetype=apache
+set efm=jade:%f:%l:%c:%t:%m
 
 " Indentation
 set expandtab

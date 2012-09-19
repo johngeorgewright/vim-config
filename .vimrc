@@ -30,4 +30,5 @@ let mapleader = ","
 
 " CoffeeScript
 let coffee_compile_vert = 1
+au BufNewFile,BufReadPost *.coffee setl foldmethod=indent
 

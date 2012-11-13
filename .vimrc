@@ -24,6 +24,9 @@ set pastetoggle=<f5>
 au FileType make setlocal noexpandtab
 filetype plugin indent on
 
+" Line numbers
+set number
+
 " Searching
 set incsearch
 

@@ -32,6 +32,7 @@ set incsearch
 
 " Leader
 let mapleader = ","
+let maplocalleader = "\\"
 
 " CoffeeScript
 let coffee_compile_vert = 1

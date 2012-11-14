@@ -14,3 +14,15 @@ git submodule init
 git submodule update
 ```
 
+This config will install [splice](http://sjl.bitbucket.org/splice.vim/) which is awesome for git merging. Set git up:
+
+```
+# ~/.gitconfig
+[merge]
+  tool = splice
+
+[mergetool "splice"]
+  cmd = "gvim -f $BASE $REMOTE $MERGED -c 'SpliceInit'"
+  trustExitCode = true
+```
+

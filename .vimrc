@@ -1,7 +1,7 @@
 " GVim
 if has('gui_running')
   colorscheme desert
-  set guifont="Consolas Medium 10"
+  set guifont=Consolas:h9:cANSI
 endif
 
 " Pathogen

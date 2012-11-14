@@ -40,3 +40,6 @@
 [submodule "bundle/threesome"]
 	path = bundle/threesome
 	url = https://github.com/sjl/threesome.vim.git
+[submodule "bundle/markdown"]
+	path = bundle/markdown
+	url = https://github.com/hallison/vim-markdown.git

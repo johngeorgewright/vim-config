@@ -31,9 +31,11 @@ set incsearch
 
 " Leader
 let mapleader = ","
-let maplocalleader = "\\"
 
 " CoffeeScript
 let coffee_compile_vert = 1
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent
+
+" CtrlP
+let g:ctrlp_working_path_mode = 0
 

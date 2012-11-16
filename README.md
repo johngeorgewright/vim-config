@@ -43,3 +43,27 @@ This config will install [splice](http://sjl.bitbucket.org/splice.vim/) which is
   trustExitCode = true
 ```
 
+What comes bundled?
+-------------------
+
+[Ack](https://github.com/mileszs/ack.vim)
+[CoffeeScript](https://github.com/kchmck/vim-coffee-script)
+[CSS Color](https://github.com/skammer/vim-css-color)
+[CSS3 Syntax](https://github.com/hail2u/vim-css3-syntax)
+[Ctrl-P](https://github.com/kien/ctrlp.vim)
+[Easy Motion](https://github.com/Lokaltog/vim-easymotion)
+[Handlebars](https://github.com/nono/vim-handlebars)
+[Jade](https://github.com/digitaltoad/vim-jade)
+[JSLint](https://github.com/hallettj/jslint.vim)
+[Less](https://github.com/groenewege/vim-less)
+[MRU](https://github.com/vim-scripts/mru.vim)
+[Mustache](https://github.com/juvenn/mustache.vim)
+[Snipmate](https://github.com/msanders/snipmate.vim)
+[Sparkup](https://github.com/tristen/vim-sparkup)
+[Splice](https://github.com/sjl/splice.vim)
+[Stylus](https://github.com/wavded/vim-stylus)
+[Surround](https://github.com/tpope/vim-surround)
+[tComment](https://github.com/vim-scripts/tComment)
+[TypeScript](https://github.com/leafgarland/typescript-vim)
+
+

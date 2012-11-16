@@ -66,4 +66,26 @@ What comes bundled?
 - [tComment](https://github.com/vim-scripts/tComment)
 - [TypeScript](https://github.com/leafgarland/typescript-vim)
 
+I like some of your configuration, but I want some of my own too
+----------------------------------------------------------------
+
+That's fine, just `source` the config file and start adding your own stuff.
+
+### Linux
+```vim
+" ~/.vimrc
+
+runtime .vimrc
+
+" Add your config here...
+```
+
+### Windows
+```vim
+" C:\Users\[you]\_vimrc
+
+runtime _vimrc
+
+" Add your config here...
+```
 

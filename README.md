@@ -11,10 +11,10 @@ It adds the following configuration, you can override it if you wish (see [how](
 4. Uses the built in apache syntax for files with the extension _conf_.
 5. Uses 2 spaces instead of tabs (except for Makefile's).
 6. Uses _smartindent_.
-7. Attaches a `:set paste` and `:set nopaste` toggle to <F5>.
+7. Attaches a `:set paste` and `:set nopaste` toggle to &lt;F5&gt;.
 8. Adds line numbers.
 9. Turns on an option to move the view to search results while typing your search query.
-10. Sets the <Leader> to `,`.
+10. Sets the &lt;Leader&gt; to `,`.
 11. Installs a load of [plugins](#what-comes-bundled).
 
 Installation

@@ -1,6 +1,22 @@
 My personal VIM configuration
 =============================
 
+What does it do to my Vim?
+--------------------------
+
+It adds the following configuration, you can override it if you wish (see [how](#i-like-some-of-your-configuration-but-i-want-some-of-my-own-too)).
+
+1. Uses the desert theme when running Vim in a GUI.
+2. Installs [Pathogen](https://github.com/tpope/vim-pathogen)
+4. Uses the built in apache syntax for files with the extension _conf_.
+5. Uses 2 spaces instead of tabs (except for Makefile's).
+6. Uses _smartindent_.
+7. Attaches a `:set paste` and `:set nopaste` toggle to &lt;F5&gt;.
+8. Adds line numbers.
+9. Turns on an option to move the view to search results while typing your search query.
+10. Sets the &lt;Leader&gt; to `,`.
+11. Installs a load of [plugins](#what-comes-bundled).
+
 Installation
 ------------
 
@@ -58,7 +74,7 @@ What comes bundled?
 - [CoffeeScript](https://github.com/kchmck/vim-coffee-script)
 - [CSS Color](https://github.com/skammer/vim-css-color)
 - [CSS3 Syntax](https://github.com/hail2u/vim-css3-syntax)
-- [Ctrl-P](https://github.com/kien/ctrlp.vim)
+- [Ctrl-P](https://github.com/kien/ctrlp.vim) - NOTE: Ctrl-P uses a feature to reset the working directory to the selected file's nearest repo ancestor. This is pretty annoying for svn users so I've turned it off.
 - [Easy Motion](https://github.com/Lokaltog/vim-easymotion)
 - [Handlebars](https://github.com/nono/vim-handlebars)
 - [Jade](https://github.com/digitaltoad/vim-jade)
@@ -74,4 +90,26 @@ What comes bundled?
 - [tComment](https://github.com/vim-scripts/tComment)
 - [TypeScript](https://github.com/leafgarland/typescript-vim)
 
+I like some of your configuration, but I want some of my own too
+----------------------------------------------------------------
+
+That's fine, just `source` the config file and start adding your own stuff.
+
+### Linux
+```vim
+" ~/.vimrc
+
+runtime .vimrc
+
+" Add your config here...
+```
+
+### Windows
+```vim
+" C:\Users\[you]\_vimrc
+
+runtime _vimrc
+
+" Add your config here...
+```
 

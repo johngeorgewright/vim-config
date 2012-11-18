@@ -43,6 +43,14 @@ This config will install [splice](http://sjl.bitbucket.org/splice.vim/) which is
   trustExitCode = true
 ```
 
+As a note, if you're using GVim on Ubuntu, you may find you get some errors about attaching GVim's menu when running it off the command line. To fix this, simply add this alias to your `~/.bashrc` configuration:
+
+```sh
+# GViM has a bug adding it's menu to ubunut when running from the command line
+# ... lets turn it off.
+alias gvim='gvim -f "$@" & true'
+```
+
 What comes bundled?
 -------------------
 

@@ -10,6 +10,7 @@ call pathogen#helptags()
 " Syntax
 syntax on
 au BufNewFile,BufRead *.conf set filetype=apache
+au BufNewFile,BufRead Jakefile set filetype=javascript
 set efm=jade:%f:%l:%c:%t:%m
 filetype plugin on
 

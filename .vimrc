@@ -33,6 +33,9 @@ set incsearch
 " Leader
 let mapleader = ","
 
+" JSLint
+au BufNewFile,BufRead * if &ft == 'javascript' | let b:jslint_disabled = 1 | endif
+
 " CoffeeScript
 let coffee_compile_vert = 1
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent

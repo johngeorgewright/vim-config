@@ -59,14 +59,6 @@ This config will install [splice](http://sjl.bitbucket.org/splice.vim/) which is
   trustExitCode = true
 ```
 
-As a note, if you're using GVim on Ubuntu, you may find you get some errors about attaching GVim's menu when running it off the command line. To fix this, simply add this alias to your `~/.bashrc` configuration:
-
-```sh
-# GViM has a bug adding it's menu to ubunut when running from the command line
-# ... lets turn it off.
-alias gvim='gvim -f "$@" & true'
-```
-
 What comes bundled?
 -------------------
 
@@ -78,7 +70,7 @@ What comes bundled?
 - [Easy Motion](https://github.com/Lokaltog/vim-easymotion)
 - [Handlebars](https://github.com/nono/vim-handlebars)
 - [Jade](https://github.com/digitaltoad/vim-jade)
-- [JSLint](https://github.com/hallettj/jslint.vim)
+- [JSLint](https://github.com/hallettj/jslint.vim) - NOTE: This is turned off by default. Use `:JSLintToggle` to enable it per buffer.
 - [Less](https://github.com/groenewege/vim-less)
 - [MRU](https://github.com/vim-scripts/mru.vim)
 - [Mustache](https://github.com/juvenn/mustache.vim)
@@ -89,6 +81,10 @@ What comes bundled?
 - [Surround](https://github.com/tpope/vim-surround)
 - [tComment](https://github.com/vim-scripts/tComment)
 - [TypeScript](https://github.com/leafgarland/typescript-vim)
+
+### JSLint.vim
+
+To use this plugin you may need to install a JavaScript engine if you haven't already got one. I'd recommend node.js, otherewise there's spidermonkey or rhino.
 
 I like some of your configuration, but I want some of my own too
 ----------------------------------------------------------------

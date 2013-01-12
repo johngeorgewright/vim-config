@@ -33,6 +33,12 @@ set incsearch
 " Leader
 let mapleader = ","
 
+" Enable per-directory .vimrc files
+set exrc
+
+" Disable unsafe commands in local .vimrc files
+set secure 
+
 " JSLint
 au BufNewFile,BufRead * if &ft == 'javascript' | let b:jslint_disabled = 1 | endif
 

@@ -14,8 +14,9 @@ It adds the following configuration, you can override it if you wish (see [how](
 7. Attaches a `:set paste` and `:set nopaste` toggle to &lt;F5&gt;.
 8. Adds line numbers.
 9. Turns on an option to move the view to search results while typing your search query.
-10. Sets the &lt;Leader&gt; to `,`.
-11. Installs a load of [plugins](#what-comes-bundled).
+10. Adds the ability to have .vimrc configuration per directories
+11. Sets the &lt;Leader&gt; to `,`.
+12. Installs a load of [plugins](#what-comes-bundled).
 
 Installation
 ------------

@@ -3,19 +3,19 @@
 	url = https://github.com/kchmck/vim-coffee-script.git
 [submodule "bundle/handlebars"]
 	path = bundle/handlebars
-	url = git://github.com/nono/vim-handlebars.git
+	url = https://github.com/nono/vim-handlebars.git
 [submodule "bundle/jade"]
 	path = bundle/jade
-	url = git://github.com/digitaltoad/vim-jade.git
+	url = https://github.com/digitaltoad/vim-jade.git
 [submodule "bundle/coffee-script"]
 	path = bundle/coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
 [submodule "bundle/stylus"]
 	path = bundle/stylus
-	url = git@github.com:wavded/vim-stylus.git
+	url = https://github.com/wavded/vim-stylus.git
 [submodule "bundle/mustache"]
 	path = bundle/mustache
-	url = git://github.com/juvenn/mustache.vim.git
+	url = https://github.com/juvenn/mustache.vim.git
 [submodule "bundle/jslint"]
 	path = bundle/jslint
 	url = https://github.com/hallettj/jslint.vim.git

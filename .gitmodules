@@ -61,3 +61,6 @@
 [submodule "bundle/instant-markdown"]
 	path = bundle/instant-markdown
 	url = https://github.com/suan/vim-instant-markdown.git
+[submodule "bundle/DirDiff"]
+	path = bundle/DirDiff
+	url = https://github.com/vim-scripts/DirDiff.vim.git

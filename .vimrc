@@ -11,6 +11,7 @@ call pathogen#helptags()
 syntax on
 au BufNewFile,BufRead *.conf set filetype=apache
 au BufNewFile,BufRead Jakefile set filetype=javascript
+au BufNewFile,BufRead *.jpt set filetype=xml
 set efm=jade:%f:%l:%c:%t:%m
 filetype plugin on
 
@@ -32,6 +33,12 @@ set incsearch
 
 " Leader
 let mapleader = ","
+
+" Enable per-directory .vimrc files
+set exrc
+
+" Disable unsafe commands in local .vimrc files
+set secure 
 
 " JSLint
 au BufNewFile,BufRead * if &ft == 'javascript' | let b:jslint_disabled = 1 | endif

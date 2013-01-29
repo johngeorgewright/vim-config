@@ -1,3 +1,7 @@
+" Pathogen
+call pathogen#infect()
+call pathogen#helptags()
+
 " GVim
 if has('gui_running')
   set background=light
@@ -5,10 +9,6 @@ else
   set background=dark
 endif
 colorscheme solarized
-
-" Pathogen
-call pathogen#infect()
-call pathogen#helptags()
 
 " Syntax
 syntax on

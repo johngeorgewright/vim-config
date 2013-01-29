@@ -1,7 +1,10 @@
 " GVim
 if has('gui_running')
-  colorscheme desert
+  set background=light
+else
+  set background=dark
 endif
+colorscheme solarized
 
 " Pathogen
 call pathogen#infect()

@@ -5,10 +5,8 @@ call pathogen#helptags()
 " GVim
 if has('gui_running')
   set background=light
-else
-  set background=dark
+  colorscheme solarized
 endif
-colorscheme solarized
 
 " Syntax
 syntax on

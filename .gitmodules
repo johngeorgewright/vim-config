@@ -70,3 +70,9 @@
 [submodule "bundle/html5"]
 	path = bundle/html5
 	url = https://github.com/othree/html5.vim.git
+[submodule "bundle/django"]
+	path = bundle/django
+	url = https://github.com/vim-scripts/django.vim.git
+[submodule ".\\bundle\\colorschemes"]
+	path = .\\bundle\\colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git

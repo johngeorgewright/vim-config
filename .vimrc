@@ -4,14 +4,14 @@ call pathogen#helptags()
 
 " GVim
 if has('gui_running')
-  set background=light
-  colorscheme solarized
+  colorscheme symfony
 endif
 
 " Syntax
 syntax on
 au BufNewFile,BufRead *.conf set filetype=apache
 au BufNewFile,BufRead Jakefile set filetype=javascript
+au BufNewFile,BufRead *.json set filetype=javascript
 au BufNewFile,BufRead *.jpt set filetype=xml
 set efm=jade:%f:%l:%c:%t:%m
 filetype plugin on
@@ -40,6 +40,9 @@ set exrc
 
 " Disable unsafe commands in local .vimrc files
 set secure 
+
+" Matchit
+runtime macros/matchit.vim
 
 " JSLint
 au BufNewFile,BufRead * if &ft == 'javascript' | let b:jslint_disabled = 1 | endif

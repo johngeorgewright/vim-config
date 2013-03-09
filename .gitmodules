@@ -76,3 +76,9 @@
 [submodule "bundle/indent-guides"]
 	path = bundle/indent-guides
 	url = https://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "bundle/markdown"]
+	path = bundle/markdown
+	url = https://github.com/tpope/vim-markdown.git
+[submodule "bundle/literate-coffeescript"]
+	path = bundle/literate-coffeescript
+	url = https://github.com/mintplant/vim-literate-coffeescript.git

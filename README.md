@@ -74,6 +74,8 @@ What comes bundled?
 - [Jade](https://github.com/digitaltoad/vim-jade)
 - [JSLint](https://github.com/hallettj/jslint.vim) - NOTE: This is turned off by default. Use `:JSLintToggle` to enable it per buffer.
 - [Less](https://github.com/groenewege/vim-less)
+- [Literal CoffeeScript](https://github.com/mintplant/vim-literate-coffeescript.git)
+- [Markdown](https://github.com/tpope/vim-markdown.git) - This is mainly used for the literal coffee plugin
 - [MRU](https://github.com/vim-scripts/mru.vim)
 - [Mustache](https://github.com/juvenn/mustache.vim)
 - [Snipmate](https://github.com/msanders/snipmate.vim)

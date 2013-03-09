@@ -70,6 +70,7 @@ What comes bundled?
 - [Ctrl-P](https://github.com/kien/ctrlp.vim) - NOTE: Ctrl-P uses a feature to reset the working directory to the selected file's nearest repo ancestor. This is pretty annoying for svn users so I've turned it off.
 - [Easy Motion](https://github.com/Lokaltog/vim-easymotion)
 - [Handlebars](https://github.com/nono/vim-handlebars)
+- [Indent Guides](https://github.com/nathanaelkane/vim-indent-guides.git)
 - [Jade](https://github.com/digitaltoad/vim-jade)
 - [JSLint](https://github.com/hallettj/jslint.vim) - NOTE: This is turned off by default. Use `:JSLintToggle` to enable it per buffer.
 - [Less](https://github.com/groenewege/vim-less)

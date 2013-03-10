@@ -5,6 +5,8 @@ call pathogen#helptags()
 " GVim
 if has('gui_running')
   colorscheme symfony
+else
+  set background=dark
 endif
 
 " Syntax
@@ -53,4 +55,7 @@ au BufNewFile,BufReadPost *.coffee setl foldmethod=indent
 
 " CtrlP
 let g:ctrlp_working_path_mode = 0
+
+" Indent Guides
+let g:indent_guides_enable_on_vim_startup = 1
 

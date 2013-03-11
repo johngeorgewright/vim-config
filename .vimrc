@@ -4,7 +4,7 @@ call pathogen#helptags()
 
 " GVim
 if has('gui_running')
-  colorscheme symfony
+  colorscheme tango2
 else
   set background=dark
 endif

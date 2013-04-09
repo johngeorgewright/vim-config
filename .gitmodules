@@ -12,7 +12,7 @@
 	url = https://github.com/kchmck/vim-coffee-script.git
 [submodule "bundle/stylus"]
 	path = bundle/stylus
-	url = https://github.com:wavded/vim-stylus.git
+	url = https://github.com/wavded/vim-stylus.git
 [submodule "bundle/mustache"]
 	path = bundle/mustache
 	url = https://github.com/juvenn/mustache.vim.git

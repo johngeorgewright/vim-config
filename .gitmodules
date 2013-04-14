@@ -16,9 +16,6 @@
 [submodule "bundle/mustache"]
 	path = bundle/mustache
 	url = https://github.com/juvenn/mustache.vim.git
-[submodule "bundle/jslint"]
-	path = bundle/jslint
-	url = https://github.com/hallettj/jslint.vim.git
 [submodule "bundle/typescript"]
 	path = bundle/typescript
 	url = https://github.com/leafgarland/typescript-vim.git

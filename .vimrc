@@ -18,6 +18,9 @@ au BufNewFile,BufRead *.jpt set filetype=xml
 set efm=jade:%f:%l:%c:%t:%m
 filetype plugin on
 
+" Enable per-directory .exrc files
+set exrc
+
 " Indentation
 set expandtab
 set tabstop=2
@@ -28,6 +31,12 @@ set pastetoggle=<f5>
 au FileType make setlocal noexpandtab
 filetype plugin indent on
 
+" Windows
+" Full width AND height window
+if bufwinnr(1)
+  map <C-W>* <C-W>_<C-W>\|
+endif
+
 " Line numbers
 set number
 
@@ -36,9 +45,6 @@ set incsearch
 
 " Leader
 let mapleader = ","
-
-" Enable per-directory .vimrc files
-set exrc
 
 " Disable unsafe commands in local .vimrc files
 set secure 

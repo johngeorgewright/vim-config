@@ -5,6 +5,7 @@ call pathogen#helptags()
 " GVim
 if has('gui_running')
   colorscheme tango2
+  set guioptions=m
 else
   set background=dark
 endif

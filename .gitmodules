@@ -79,3 +79,6 @@
 [submodule "bundle/literate-coffeescript"]
 	path = bundle/literate-coffeescript
 	url = https://github.com/mintplant/vim-literate-coffeescript.git
+[submodule "bundle/shell"]
+	path = bundle/shell
+	url = https://github.com/johngeorgewright/shell.vim.git

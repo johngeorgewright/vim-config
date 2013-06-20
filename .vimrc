@@ -4,7 +4,7 @@ call pathogen#helptags()
 
 " GVim
 if has('gui_running')
-  colorscheme symfony
+  colorscheme tango2
   set guioptions=m
 else
   set background=dark
@@ -19,6 +19,9 @@ au BufNewFile,BufRead *.jpt set filetype=xml
 set efm=jade:%f:%l:%c:%t:%m
 filetype plugin on
 
+" Enable per-directory .exrc files
+set exrc
+
 " Indentation
 set expandtab
 set tabstop=2
@@ -28,6 +31,12 @@ set smartindent
 set pastetoggle=<f5>
 au FileType make setlocal noexpandtab
 filetype plugin indent on
+
+" Windows
+" Full width AND height window
+if bufwinnr(1)
+  map <C-W>* <C-W>_<C-W>\|
+endif
 
 " Line numbers
 set number
@@ -46,17 +55,11 @@ set incsearch
 " Leader
 let mapleader = ","
 
-" Enable per-directory .vimrc files
-set exrc
-
 " Disable unsafe commands in local .vimrc files
 set secure 
 
 " Matchit
 runtime macros/matchit.vim
-
-" JSLint
-au BufNewFile,BufRead * if &ft == 'javascript' | let b:jslint_disabled = 1 | endif
 
 " CoffeeScript
 let coffee_compile_vert = 1

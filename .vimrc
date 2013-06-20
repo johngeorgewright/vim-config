@@ -5,6 +5,7 @@ call pathogen#helptags()
 " GVim
 if has('gui_running')
   colorscheme symfony
+  set guioptions=m
 else
   set background=dark
 endif
@@ -30,6 +31,14 @@ filetype plugin indent on
 
 " Line numbers
 set number
+
+" Line character limit
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
+
+" Automatically open up quick fix windows
+autocmd QuickFixCmdPost [^l]* nested cwindow
+autocmd QuickFixCmdPost    l* nested lwindow
 
 " Searching
 set incsearch

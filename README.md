@@ -70,6 +70,7 @@ What comes bundled?
 - [CSS3 Syntax](https://github.com/hail2u/vim-css3-syntax)
 - [Ctrl-P](https://github.com/kien/ctrlp.vim) - NOTE: Ctrl-P uses a feature to reset the working directory to the selected file's nearest repo ancestor. This is pretty annoying for svn users so I've turned it off.
 - [Easy Motion](https://github.com/Lokaltog/vim-easymotion)
+- [Fugitive](https://github.com/tpope/vim-fugitive.git)
 - [Handlebars](https://github.com/nono/vim-handlebars)
 - [Indent Guides](https://github.com/nathanaelkane/vim-indent-guides.git)
 - [Jade](https://github.com/digitaltoad/vim-jade)

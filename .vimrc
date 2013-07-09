@@ -4,7 +4,7 @@ call pathogen#helptags()
 
 " GVim
 if has('gui_running')
-  colorscheme tango2
+  colorscheme jellybeans
   set guioptions=m
 else
   set background=dark
@@ -66,7 +66,12 @@ let coffee_compile_vert = 1
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent
 
 " CtrlP
-let g:ctrlp_working_path_mode = 0
+let g:ctrlp_clear_cache_on_exit=1
+let g:ctrlp_max_height=40
+let g:ctrlp_show_hidden=0
+let g:ctrlp_follow_symlinks=1
+let g:ctrlp_working_path_mode=0
+let g:ctrlp_max_files=20000
 
 " Indent Guides
 let g:indent_guides_enable_on_vim_startup = 1

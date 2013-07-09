@@ -71,3 +71,6 @@ let g:ctrlp_working_path_mode = 0
 " Indent Guides
 let g:indent_guides_enable_on_vim_startup = 1
 
+" Nerd Tree
+map <F2> :NERDTreeToggle<CR>
+

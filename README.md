@@ -64,6 +64,7 @@ What comes bundled?
 -------------------
 
 - [Ack](https://github.com/mileszs/ack.vim)
+- [Bufkill](http://www.vim.org/scripts/script.php?script_id=1147)
 - [CoffeeScript](https://github.com/kchmck/vim-coffee-script)
 - [CSS Color](https://github.com/skammer/vim-css-color)
 - [CSS3 Syntax](https://github.com/hail2u/vim-css3-syntax)

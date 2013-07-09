@@ -82,6 +82,7 @@ What comes bundled?
 - [Mustache](https://github.com/juvenn/mustache.vim)
 - [NerdTree](https://github.com/scrooloose/nerdtree) - This has been mapped to &lt;F2&gt;
 - [Shell](https://github.com/johngeorgewright/shell.vim)
+- [Slim](https://github.com/slim-template/vim-slim)
 - [Snipmate](https://github.com/msanders/snipmate.vim)
 - [Sparkup](https://github.com/tristen/vim-sparkup)
 - [Splice](https://github.com/sjl/splice.vim)

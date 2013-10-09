@@ -17,6 +17,7 @@ au BufNewFile,BufRead Jakefile set filetype=javascript
 au BufNewFile,BufRead *.json set filetype=javascript
 au BufNewFile,BufRead *.jpt set filetype=xml
 au BufNewFile,BufRead *.thor set filetype=ruby
+au BufNewFile,BufRead Guardfile set filetype=ruby
 set efm=jade:%f:%l:%c:%t:%m
 filetype plugin on
 

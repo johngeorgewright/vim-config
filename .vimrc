@@ -7,7 +7,7 @@ if has('gui_running')
   colorscheme jellybeans
   set guioptions=m
 else
-  set background=dark
+  colorscheme default
 endif
 
 " Syntax
@@ -16,6 +16,7 @@ au BufNewFile,BufRead *.conf set filetype=apache
 au BufNewFile,BufRead Jakefile set filetype=javascript
 au BufNewFile,BufRead *.json set filetype=javascript
 au BufNewFile,BufRead *.jpt set filetype=xml
+au BufNewFile,BufRead *.thor set filetype=ruby
 set efm=jade:%f:%l:%c:%t:%m
 filetype plugin on
 

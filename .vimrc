@@ -2,6 +2,9 @@
 call pathogen#infect()
 call pathogen#helptags()
 
+" I use Vim, not Vi
+set nocompatible
+
 " GVim
 if has('gui_running')
   colorscheme jellybeans
@@ -19,7 +22,6 @@ au BufNewFile,BufRead *.jpt set filetype=xml
 au BufNewFile,BufRead *.thor set filetype=ruby
 au BufNewFile,BufRead Guardfile set filetype=ruby
 set efm=jade:%f:%l:%c:%t:%m
-filetype plugin on
 
 " Enable per-directory .exrc files
 set exrc
@@ -80,4 +82,7 @@ let g:indent_guides_enable_on_vim_startup = 1
 
 " Nerd Tree
 map <F2> :NERDTreeToggle<CR>
+
+" Ruby
+autocmd FileType ruby compiler ruby
 

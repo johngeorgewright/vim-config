@@ -83,6 +83,3 @@ let g:indent_guides_enable_on_vim_startup = 1
 " Nerd Tree
 map <F2> :NERDTreeToggle<CR>
 
-" Ruby
-autocmd FileType ruby compiler ruby
-

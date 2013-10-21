@@ -94,3 +94,6 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/robotframework"]
+	path = bundle/robotframework
+	url = https://github.com/mfukar/robotframework-vim.git

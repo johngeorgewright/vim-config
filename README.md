@@ -45,21 +45,6 @@ git submodule init
 git submodule update
 ```
 
-Configuration
--------------
-
-This config will install [splice](http://sjl.bitbucket.org/splice.vim/) which is awesome for git merging. Set git up:
-
-```
-# ~/.gitconfig
-[merge]
-  tool = splice
-
-[mergetool "splice"]
-  cmd = "gvim -f $BASE $REMOTE $MERGED -c 'SpliceInit'"
-  trustExitCode = true
-```
-
 What comes bundled?
 -------------------
 
@@ -74,13 +59,13 @@ What comes bundled?
 - [Handlebars](https://github.com/nono/vim-handlebars)
 - [Indent Guides](https://github.com/nathanaelkane/vim-indent-guides.git)
 - [Jade](https://github.com/digitaltoad/vim-jade)
-- [JSLint](https://github.com/hallettj/jslint.vim) - NOTE: This is turned off by default. Use `:JSLintToggle` to enable it per buffer.
 - [Less](https://github.com/groenewege/vim-less)
 - [Literal CoffeeScript](https://github.com/mintplant/vim-literate-coffeescript.git)
 - [Markdown](https://github.com/tpope/vim-markdown.git) - This is mainly used for the literal coffee plugin
 - [MRU](https://github.com/vim-scripts/mru.vim)
 - [Mustache](https://github.com/juvenn/mustache.vim)
 - [NerdTree](https://github.com/scrooloose/nerdtree) - This has been mapped to &lt;F2&gt;
+- [RVM](https://github.com/tpope/vim-rvm)
 - [Shell](https://github.com/johngeorgewright/shell.vim)
 - [Slim](https://github.com/slim-template/vim-slim)
 - [Snipmate](https://github.com/msanders/snipmate.vim)
@@ -88,12 +73,10 @@ What comes bundled?
 - [Splice](https://github.com/sjl/splice.vim)
 - [Stylus](https://github.com/wavded/vim-stylus)
 - [Surround](https://github.com/tpope/vim-surround)
+- [Syntastic](https://github.com/scrooloose/syntastic)
 - [tComment](https://github.com/vim-scripts/tComment)
 - [TypeScript](https://github.com/leafgarland/typescript-vim)
 
-### JSLint.vim
-
-To use this plugin you may need to install a JavaScript engine if you haven't already got one. I'd recommend node.js, otherewise there's spidermonkey or rhino.
 
 I like some of your configuration, but I want some of my own too
 ----------------------------------------------------------------

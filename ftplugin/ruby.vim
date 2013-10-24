@@ -1,3 +1,8 @@
+" Line character limit
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
+
+" Automatic 'end'
 if !exists( "*RubyEndToken" )
 
   function RubyEndToken()

@@ -15,6 +15,7 @@ endif
 
 " Syntax
 syntax on
+au BufNewFile,BufRead .bowerrc set filetype=javascript
 au BufNewFile,BufRead *.conf set filetype=apache
 au BufNewFile,BufRead Jakefile set filetype=javascript
 au BufNewFile,BufRead *.json set filetype=javascript
@@ -73,6 +74,10 @@ let g:ctrlp_show_hidden=0
 let g:ctrlp_follow_symlinks=1
 let g:ctrlp_working_path_mode=0
 let g:ctrlp_max_files=20000
+let g:ctrlp_custom_ignore = {
+  \ 'file': '\.pyc$',
+  \ 'dir': '\v(node_modules|venv)',
+  \ }
 
 " Indent Guides
 let g:indent_guides_enable_on_vim_startup = 1

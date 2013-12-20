@@ -66,6 +66,8 @@ runtime macros/matchit.vim
 " CoffeeScript
 let coffee_compile_vert = 1
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent
+au BufNewFile,BufReadPost *.haml setl foldmethod=indent
+au BufNewFile,BufReadPost *.jade setl foldmethod=indent
 
 " CtrlP
 let g:ctrlp_clear_cache_on_exit=1

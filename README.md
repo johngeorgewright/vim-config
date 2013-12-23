@@ -53,8 +53,9 @@ What comes bundled?
 - [Easy Motion](https://github.com/Lokaltog/vim-easymotion)
 - [Fugitive](https://github.com/tpope/vim-fugitive.git)
 - [Handlebars](https://github.com/nono/vim-handlebars)
-- [Indent Guides](https://github.com/nathanaelkane/vim-indent-guides.git)
+- [IndentLine](https://github.com/Yggdroot/indentLine)
 - [Jade](https://github.com/digitaltoad/vim-jade)
+- [JSON](https://github.com/elzr/vim-json)
 - [Less](https://github.com/groenewege/vim-less)
 - [Literal CoffeeScript](https://github.com/mintplant/vim-literate-coffeescript.git)
 - [Markdown](https://github.com/tpope/vim-markdown.git) - This is mainly used for the literal coffee plugin

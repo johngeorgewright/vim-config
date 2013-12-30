@@ -24,7 +24,7 @@ Installation
 ### Linux
 
 ```sh
-# stay tuned... trying curl script
+curl https://raw.github.com/johngeorgewright/vim-config/master/install.sh | sh
 ```
 
 ### Windows
@@ -35,6 +35,11 @@ git clone https://github.com/johngeorgewright/vim-config.git vimfiles
 mklink _vimrc vimfiles\_vimrc
 cd vimfiles
 git submodule update --init
+cd bundle\vimproc
+# Windows using Mingw (32bit Vim):
+make -f make_mingw32.mak
+# Windows using Mingw (64bit Vim):
+make -f make_mingw64.mak
 ```
 
 What comes bundled?
@@ -69,20 +74,16 @@ What comes bundled?
 - [Syntastic](https://github.com/scrooloose/syntastic)
 - [tComment](https://github.com/vim-scripts/tComment)
 - [TypeScript](https://github.com/leafgarland/typescript-vim)
+- [VimProc](https://github.com/Shougo/vimproc.vim)
+- [VimShell](https://github.com/Shougo/vimshell.vim)
 
 
 I like some of your configuration, but I want some of my own too
 ----------------------------------------------------------------
 
-That's fine, just `source` the config file and start adding your own stuff.
-
 ### Linux
 ```vim
-" ~/.vimrc
-
-runtime .vimrc
-
-" Add your config here...
+# If you're on linux just edit the created ~/.vim file
 ```
 
 ### Windows

@@ -5,6 +5,5 @@ cd .vim && \
 git submodule update --init && \
 cd bundle/vimproc && \
 make && \
-cd $HOME && \
-ln -s .vim/.vimrc
+echo "runtime .vimrc" > $HOME/.vimrc
 

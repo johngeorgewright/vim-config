@@ -18,7 +18,6 @@ syntax on
 au BufNewFile,BufRead .bowerrc set filetype=javascript
 au BufNewFile,BufRead *.conf set filetype=apache
 au BufNewFile,BufRead Jakefile set filetype=javascript
-au BufNewFile,BufRead *.json set filetype=javascript
 au BufNewFile,BufRead *.jpt set filetype=xml
 au BufNewFile,BufRead *.thor set filetype=ruby
 au BufNewFile,BufRead Guardfile set filetype=ruby
@@ -66,6 +65,8 @@ runtime macros/matchit.vim
 " CoffeeScript
 let coffee_compile_vert = 1
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent
+au BufNewFile,BufReadPost *.haml setl foldmethod=indent
+au BufNewFile,BufReadPost *.jade setl foldmethod=indent
 
 " CtrlP
 let g:ctrlp_clear_cache_on_exit=1

@@ -24,11 +24,7 @@ Installation
 ### Linux
 
 ```sh
-cd ~
-git clone https://github.com/johngeorgewright/vim-config.git .vim
-ln -s ./.vim/.vimrc
-cd .vim
-git submodule update --init
+# stay tuned... trying curl script
 ```
 
 ### Windows

@@ -100,3 +100,9 @@
 [submodule "bundle/rvm"]
 	path = bundle/rvm
 	url = https://github.com/tpope/vim-rvm.git
+[submodule "bundle/vimshell"]
+	path = bundle/vimshell
+	url = https://github.com/Shougo/vimshell.vim.git
+[submodule "bundle/vimproc"]
+	path = bundle/vimproc
+	url = https://github.com/Shougo/vimproc.vim.git

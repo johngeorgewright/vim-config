@@ -57,6 +57,7 @@ What comes bundled?
 - [IndentLine](https://github.com/Yggdroot/indentLine)
 - [Jade](https://github.com/digitaltoad/vim-jade)
 - [JSON](https://github.com/elzr/vim-json)
+- [JST](https://github.com/briancollins/vim-jst)
 - [Less](https://github.com/groenewege/vim-less)
 - [Literal CoffeeScript](https://github.com/mintplant/vim-literate-coffeescript.git)
 - [Markdown](https://github.com/tpope/vim-markdown.git) - This is mainly used for the literal coffee plugin

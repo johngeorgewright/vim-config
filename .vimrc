@@ -7,13 +7,17 @@ set nocompatible
 
 " GVim
 if has('gui_running')
-  colorscheme jellybeans
+"   colorscheme jellybeans
+"   colorscheme busybee
+"   colorscheme camo
+  colorscheme codeschool
   set guioptions=m
 else
   colorscheme default
 endif
 
 " Syntax
+filetype plugin on
 syntax on
 au BufNewFile,BufRead .bowerrc set filetype=javascript
 au BufNewFile,BufRead *.conf set filetype=apache
@@ -67,6 +71,8 @@ let coffee_compile_vert = 1
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent
 au BufNewFile,BufReadPost *.haml setl foldmethod=indent
 au BufNewFile,BufReadPost *.jade setl foldmethod=indent
+au BufNewFile,BufReadPost *.yml setl foldmethod=indent
+au BufNewFile,BufReadPost *.yaml setl foldmethod=indent
 
 " CtrlP
 let g:ctrlp_clear_cache_on_exit=1
@@ -85,4 +91,7 @@ let g:indent_guides_enable_on_vim_startup = 1
 
 " Nerd Tree
 map <F2> :NERDTreeToggle<CR>
+
+" TagList
+map <F3> :Tlist<CR>
 

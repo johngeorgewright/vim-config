@@ -15,6 +15,7 @@ if has('gui_running')
   set guioptions=m
 else
   colorscheme default
+  set background=dark
 endif
 
 " Syntax
@@ -32,6 +33,10 @@ set efm=jade:%f:%l:%c:%t:%m
 " Enable per-directory .exrc files
 set exrc
 
+" Hidden chars
+set list
+set listchars=eol:$,tab:>-,trail:.,extends:>,precedes:<,nbsp:_
+
 " Indentation
 set expandtab
 set tabstop=2
@@ -41,6 +46,8 @@ set smartindent
 set pastetoggle=<f5>
 au FileType make setlocal noexpandtab
 filetype plugin indent on
+let g:indent_guides_start_level = 2
+let g:indent_guides_guide_size = 1
 
 " Windows
 " Full width AND height window

@@ -73,6 +73,7 @@ What comes bundled?
 - [Stylus](https://github.com/wavded/vim-stylus)
 - [Surround](https://github.com/tpope/vim-surround)
 - [Syntastic](https://github.com/scrooloose/syntastic)
+- [TagList](http://vim-taglist.sourceforge.net/)
 - [tComment](https://github.com/vim-scripts/tComment)
 - [TypeScript](https://github.com/leafgarland/typescript-vim)
 - [VimProc](https://github.com/Shougo/vimproc.vim)

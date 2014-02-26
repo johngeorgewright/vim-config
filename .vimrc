@@ -35,7 +35,7 @@ set exrc
 
 " Hidden chars
 set list
-set listchars=eol:$,tab:>-,trail:.,extends:>,precedes:<,nbsp:_
+set listchars=tab:→→,trail:·,extends:>,precedes:<
 
 " Indentation
 set expandtab

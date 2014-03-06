@@ -21,7 +21,7 @@ It adds the following configuration, you can override it if you wish (see [how](
 Installation
 ------------
 
-### Linux
+### Linux / Mac
 
 ```sh
 curl https://raw.github.com/johngeorgewright/vim-config/master/install.sh | sh

@@ -18,6 +18,10 @@ else
   set background=dark
 endif
 
+" Status
+let laststatus=2
+set statusline=%F%m%r%h%w\ %{fugitive#statusline()}\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
+
 " Syntax
 filetype plugin on
 syntax on

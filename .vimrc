@@ -19,8 +19,8 @@ else
 endif
 
 " Status
-let laststatus=2
-set statusline=%F%m%r%h%w\ %{fugitive#statusline()}\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
+let ls=2
+set statusline=%F%m%r%h%w\ %{fugitive#statusline()}\ [%{&ff}]\ [%Y]\ [%l,%v][%p%%]
 
 " Syntax
 filetype plugin on

@@ -19,7 +19,7 @@ else
 endif
 
 " Status
-let ls=2
+set ls=2
 set statusline=%F%m%r%h%w\ %{fugitive#statusline()}\ [%{&ff}]\ [%Y]\ [%l,%v][%p%%]
 
 " Syntax

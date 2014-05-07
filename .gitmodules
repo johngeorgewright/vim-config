@@ -97,9 +97,6 @@
 [submodule "bundle/rvm"]
 	path = bundle/rvm
 	url = https://github.com/tpope/vim-rvm.git
-[submodule "bundle/vimshell"]
-	path = bundle/vimshell
-	url = https://github.com/Shougo/vimshell.vim.git
 [submodule "bundle/vimproc"]
 	path = bundle/vimproc
 	url = https://github.com/Shougo/vimproc.vim.git
@@ -133,6 +130,3 @@
 [submodule "bundle/ls"]
 	path = bundle/ls
 	url = https://github.com/gkz/vim-ls.git
-[submodule "bundle/neocomplete"]
-	path = bundle/neocomplete
-	url = https://github.com/Shougo/neocomplete.vim.git

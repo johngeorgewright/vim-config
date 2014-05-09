@@ -54,6 +54,7 @@ What comes bundled?
 - [Ctrl-P](https://github.com/kien/ctrlp.vim) - NOTE: Ctrl-P uses a feature to reset the working directory to the selected file's nearest repo ancestor. This is pretty annoying for svn users so I've turned it off.
 - [Easy Motion](https://github.com/Lokaltog/vim-easymotion)
 - [Fugitive](https://github.com/tpope/vim-fugitive.git)
+- [Gundo](http://sjl.bitbucket.org/gundo.vim/)
 - [Handlebars](https://github.com/nono/vim-handlebars)
 - [IndentLine](https://github.com/Yggdroot/indentLine)
 - [Jade](https://github.com/digitaltoad/vim-jade)

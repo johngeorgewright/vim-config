@@ -24,6 +24,9 @@ set ls=2
 " Airline
 let g:airline#extensions#tabline#enabled = 1
 
+" Gundo
+nnoremap <F4> :GundoToggle<CR>
+
 " Syntax
 filetype plugin on
 syntax on
@@ -49,7 +52,7 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set smartindent
-set pastetoggle=<f5>
+set pastetoggle=<F5>
 au FileType make setlocal noexpandtab
 filetype plugin indent on
 let g:indent_guides_start_level = 2

@@ -20,7 +20,9 @@ endif
 
 " Status
 set ls=2
-set statusline=%F%m%r%h%w\ %{fugitive#statusline()}\ [%{&ff}]\ [%Y]\ [%l,%v][%p%%]
+
+" Airline
+let g:airline#extensions#tabline#enabled = 1
 
 " Syntax
 filetype plugin on

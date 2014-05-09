@@ -11,7 +11,7 @@ if has('gui_running')
 "   colorscheme jellybeans
 "   colorscheme busybee
 "   colorscheme camo
-  colorscheme codeschool
+  colorscheme Tomorrow-Night-Eighties
   set guioptions=m
 else
   colorscheme default

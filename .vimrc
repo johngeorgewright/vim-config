@@ -14,7 +14,6 @@ if has('gui_running')
   colorscheme Tomorrow-Night-Eighties
   set guioptions=m
 else
-  colorscheme 256-jungle
   set background=dark
 endif
 

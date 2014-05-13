@@ -135,4 +135,7 @@
 	url = https://github.com/sjl/gundo.vim.git
 [submodule "bundle/markdown"]
 	path = bundle/markdown
-	url = https://github.com/plasticboy/vim-markdown.git
+	url = https://github.com/tpope/vim-markdown.git
+[submodule "bundle/flavored-markdown"]
+	path = bundle/flavored-markdown
+	url = https://github.com/jtratner/vim-flavored-markdown.git

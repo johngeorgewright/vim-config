@@ -37,6 +37,10 @@ au BufNewFile,BufRead *.thor set filetype=ruby
 au BufNewFile,BufRead Guardfile set filetype=ruby
 au BufNewFile,BufRead Gemfile set filetype=ruby
 set efm=jade:%f:%l:%c:%t:%m
+augroup markdown
+  au!
+  au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
+augroup END
 
 " Enable per-directory .exrc files
 set exrc

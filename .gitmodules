@@ -64,9 +64,6 @@
 [submodule "bundle/colorschemes"]
 	path = bundle/colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
-[submodule "bundle/markdown"]
-	path = bundle/markdown
-	url = https://github.com/tpope/vim-markdown.git
 [submodule "bundle/literate-coffeescript"]
 	path = bundle/literate-coffeescript
 	url = https://github.com/mintplant/vim-literate-coffeescript.git

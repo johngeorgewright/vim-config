@@ -81,6 +81,15 @@ What comes bundled?
 - [VimProc](https://github.com/Shougo/vimproc.vim)
 - [VimShell](https://github.com/Shougo/vimshell.vim)
 
+### Fancy Powerline fonts
+
+To get fancy Powerline fonts in the Airline status bar, go and install one of the [patched fonts](https://github.com/Lokaltog/powerline-fonts) and then add the following to your ~/.vimrc file:
+
+```vim
+set guifont=[Your patched font]
+let g:airline_powerline_fonts=1
+```
+
 
 I like some of your configuration, but I want some of my own too
 ----------------------------------------------------------------

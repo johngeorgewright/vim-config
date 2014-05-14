@@ -42,6 +42,22 @@ make -f make_mingw32.mak
 make -f make_mingw64.mak
 ```
 
+Updating
+--------
+
+Once you've installed this VIM package, you can always check and install updates. Run:
+
+```sh
+cd $HOME/.vim && git pull origin master && git submodule update
+```
+
+Or, you can save the above line as a bash alias:
+
+```sh
+# ~/.bashrc
+alias updatevim="cd $HOME/.vim && git pull origin master && git submodule update"
+```
+
 What comes bundled?
 -------------------
 

@@ -24,7 +24,7 @@ Installation
 ### Linux / Mac
 
 ```sh
-curl https://raw.github.com/johngeorgewright/vim-config/master/install.sh | sh
+curl https://raw.githubusercontent.com/johngeorgewright/vim-config/master/install.sh | sh
 ```
 
 ### Windows

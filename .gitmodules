@@ -139,3 +139,6 @@
 [submodule "bundle/flavored-markdown"]
 	path = bundle/flavored-markdown
 	url = https://github.com/jtratner/vim-flavored-markdown.git
+[submodule "bundle/exchange"]
+	path = bundle/exchange
+	url = https://github.com/tommcdo/vim-exchange.git

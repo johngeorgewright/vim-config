@@ -50,6 +50,11 @@ set exrc
 set list
 set listchars=tab:→→,trail:·,extends:>,precedes:<
 
+" Eye candy
+set cursorline
+let &showbreak='↪ '
+set guicursor+=a:blinkon0
+
 " Indentation
 set expandtab
 set tabstop=2
@@ -119,4 +124,7 @@ map <F2> :NERDTreeToggle<CR>
 
 " TagList
 map <F3> :Tlist<CR>
+
+" Opening files
+set suffixesadd=.coffee,.js
 

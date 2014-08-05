@@ -64,10 +64,12 @@ What comes bundled?
 - [Ack](https://github.com/mileszs/ack.vim)
 - [Airline](https://github.com/bling/vim-airline)
 - [Bufkill](http://www.vim.org/scripts/script.php?script_id=1147)
+- [Camel Case Motion](https://github.com/vim-scripts/camelcasemotion)
 - [CoffeeScript](https://github.com/kchmck/vim-coffee-script)
 - [CSS Color](https://github.com/skammer/vim-css-color)
 - [CSS3 Syntax](https://github.com/hail2u/vim-css3-syntax)
 - [Ctrl-P](https://github.com/kien/ctrlp.vim) - NOTE: Ctrl-P uses a feature to reset the working directory to the selected file's nearest repo ancestor. This is pretty annoying for svn users so I've turned it off.
+- [Delemit Mate](https://github.com/Raimondi/delimitMate)
 - [Easy Motion](https://github.com/Lokaltog/vim-easymotion)
 - [Exchange](https://github.com/tommcdo/vim-exchange)
 - [Fugitive](https://github.com/tpope/vim-fugitive.git)

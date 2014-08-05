@@ -142,3 +142,9 @@
 [submodule "bundle/exchange"]
 	path = bundle/exchange
 	url = https://github.com/tommcdo/vim-exchange.git
+[submodule "bundle/delimitMate"]
+	path = bundle/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
+[submodule "bundle/camelcasemotion"]
+	path = bundle/camelcasemotion
+	url = https://github.com/vim-scripts/camelcasemotion.git

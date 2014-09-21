@@ -99,6 +99,7 @@ runtime macros/matchit.vim
 " CoffeeScript
 let coffee_compile_vert = 1
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent
+au BufNewFile,BufReadPost *.ls setl foldmethod=indent
 au BufNewFile,BufReadPost *.haml setl foldmethod=indent
 au BufNewFile,BufReadPost *.jade setl foldmethod=indent
 au BufNewFile,BufReadPost *.yml setl foldmethod=indent

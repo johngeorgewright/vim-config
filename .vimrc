@@ -30,7 +30,7 @@ nnoremap <F4> :GundoToggle<CR>
 " Syntax
 filetype plugin on
 syntax on
-au BufNewFile,BufRead .bowerrc set filetype=javascript
+au BufNewFile,BufRead .bowerrc set filetype=json
 au BufNewFile,BufRead *.conf set filetype=apache
 au BufNewFile,BufRead Jakefile set filetype=javascript
 au BufNewFile,BufRead *.jpt set filetype=xml
@@ -64,8 +64,6 @@ set smartindent
 set pastetoggle=<F5>
 au FileType make setlocal noexpandtab
 filetype plugin indent on
-let g:indent_guides_start_level = 2
-let g:indent_guides_guide_size = 1
 
 " Windows
 " Full width AND height window

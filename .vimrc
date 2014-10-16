@@ -51,7 +51,9 @@ set list
 set listchars=tab:→→,trail:·,extends:>,precedes:<
 
 " Eye candy
-set cursorline
+if has('gui_running')
+  set cursorline
+endif
 let &showbreak='↪ '
 set guicursor+=a:blinkon0
 

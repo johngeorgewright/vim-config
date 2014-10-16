@@ -151,3 +151,6 @@
 [submodule "bundle/vcoolor"]
 	path = bundle/vcoolor
 	url = https://github.com/KabbAmine/vCoolor.vim.git
+[submodule "bundle/cake16"]
+	path = bundle/cake16
+	url = https://github.com/zefei/cake16.git

@@ -154,3 +154,6 @@
 [submodule "bundle/cake16"]
 	path = bundle/cake16
 	url = https://github.com/zefei/cake16.git
+[submodule "bundle/jison"]
+	path = bundle/jison
+	url = https://github.com/wizicer/vim-jison.git

@@ -7,16 +7,8 @@ call pathogen#helptags()
 set nocompatible
 
 " GVim
-if has('gui_running')
-"   colorscheme jellybeans
-"   colorscheme busybee
-"   colorscheme camo
-  colorscheme Tomorrow-Night-Eighties
-  set guioptions=m
-else
-  colorscheme default
-  set background=dark
-endif
+colorscheme default
+set background=dark
 
 " Status
 set ls=2
@@ -46,14 +38,7 @@ augroup END
 " Enable per-directory .exrc files
 set exrc
 
-" Hidden chars
-set list
-set listchars=tab:→→,trail:·,extends:>,precedes:<
-
 " Eye candy
-if has('gui_running')
-  set cursorline
-endif
 set guicursor+=a:blinkon0
 
 " Indentation

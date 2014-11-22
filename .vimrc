@@ -50,7 +50,6 @@ set smartindent
 set pastetoggle=<F5>
 au FileType make setlocal noexpandtab
 filetype plugin indent on
-set breakindent
 let &showbreak='↪ '
 set linebreak
 

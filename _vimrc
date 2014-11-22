@@ -1,7 +1,7 @@
 " Windows vim configurations
 
 " Extend the .vimrc file
-runtime .vimrc
+runtime vimrc
 
 if has('gui_running')
   " Fonts

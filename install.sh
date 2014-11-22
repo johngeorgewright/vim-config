@@ -6,4 +6,5 @@ git submodule update --init && \
 cd bundle/vimproc && \
 make && \
 echo "runtime .vimrc" > $HOME/.vimrc
+echo "runtime .gvimrc" > $HOME/.gvimrc
 

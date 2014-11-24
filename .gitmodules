@@ -157,6 +157,3 @@
 [submodule "bundle/jison"]
 	path = bundle/jison
 	url = https://github.com/wizicer/vim-jison.git
-[submodule "bundle/webdevicons"]
-	path = bundle/webdevicons
-	url = https://github.com/ryanoasis/vim-webdevicons.git

@@ -29,7 +29,6 @@ au BufNewFile,BufRead *.jpt set filetype=xml
 au BufNewFile,BufRead *.thor set filetype=ruby
 au BufNewFile,BufRead Guardfile set filetype=ruby
 au BufNewFile,BufRead Gemfile set filetype=ruby
-" au BufNewFile,BufRead *.tag set filetype=jsx
 set efm=jade:%f:%l:%c:%t:%m
 augroup markdown
   au!

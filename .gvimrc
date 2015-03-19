@@ -15,7 +15,7 @@ let g:javascript_conceal_prototype  = "¶"
 let g:javascript_conceal_static     = "•"
 let g:javascript_conceal_super      = "Ω"
 
-hi Conceal guibg=#2d2d2d guifg=Magenta
+hi Conceal guibg=#2d2d2d guifg=#cc99cc
 
 set cole=2
 

@@ -116,3 +116,8 @@ map <F3> :Tlist<CR>
 " Opening files
 set suffixesadd=.coffee,.js
 
+" Buffer switching
+nnoremap <A-n> :bnext<CR>
+nnoremap <A-p> :bprevious<CR>
+"
+

@@ -163,3 +163,9 @@
 [submodule "bundle/fireplace"]
 	path = bundle/fireplace
 	url = https://github.com/tpope/vim-fireplace.git
+[submodule "bundle/clojure-static"]
+	path = bundle/clojure-static
+	url = https://github.com/guns/vim-clojure-static.git
+[submodule "bundle/color-pencil"]
+	path = bundle/color-pencil
+	url = https://github.com/reedes/vim-colors-pencil

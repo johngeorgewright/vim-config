@@ -160,3 +160,6 @@
 [submodule "bundle/javascript"]
 	path = bundle/javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "bundle/fireplace"]
+	path = bundle/fireplace
+	url = https://github.com/tpope/vim-fireplace.git

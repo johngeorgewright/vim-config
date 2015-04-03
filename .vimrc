@@ -23,6 +23,7 @@ nnoremap <F4> :GundoToggle<CR>
 filetype plugin on
 syntax on
 au BufNewFile,BufRead .bowerrc set filetype=json
+au BufNewFile,BufRead .eslint set filetype=json
 au BufNewFile,BufRead *.conf set filetype=apache
 au BufNewFile,BufRead Jakefile set filetype=javascript
 au BufNewFile,BufRead *.jpt set filetype=xml
@@ -35,6 +36,7 @@ augroup markdown
   au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
 augroup END
 let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_javascript_checkers = ['eslint']
 
 " Enable per-directory .exrc files
 set exrc

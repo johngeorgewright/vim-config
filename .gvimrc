@@ -1,6 +1,7 @@
 " colorscheme jellybeans
 " colorscheme busybee
 " colorscheme camo
+" colorscheme heroku
 colorscheme Tomorrow-Night-Eighties
 set guioptions=m
 set cursorline

@@ -109,6 +109,8 @@ let g:ctrlp_custom_ignore = {
 
 " Indent Guides
 let g:indent_guides_enable_on_vim_startup = 1
+au Syntax clojure IndentGuidesDisable
+au Syntax !clojure IndentGuidesEnable
 
 " Rainbow Parentheses
 let g:rbpt_colorpairs = [
@@ -121,7 +123,6 @@ let g:rbpt_colorpairs = [
     \ ['cyan',        'LightCyan'],
     \ ['darkred',     'firebrick'],
     \ ['darkblue',    'RoyalBlue3'],
-    \ ['gray',        'seashell4'],
     \ ['darkgreen',   'DarkGreen'],
     \ ['darkmagenta', 'magenta4'],
     \ ['darkcyan',    'DarkCyan'],
@@ -140,8 +141,17 @@ map <F3> :Tlist<CR>
 " Opening files
 set suffixesadd=.coffee,.js
 
+" javascript concealers
+let g:javascript_conceal_function   = "ƒ"
+let g:javascript_conceal_null       = "ø"
+let g:javascript_conceal_this       = "@"
+let g:javascript_conceal_return     = "⇚"
+let g:javascript_conceal_undefined  = "¿"
+let g:javascript_conceal_NaN        = "ℕ"
+let g:javascript_conceal_prototype  = "¶"
+let g:javascript_conceal_static     = "•"
+let g:javascript_conceal_super      = "Ω"
+
 " Buffer switching
 nnoremap <A-n> :bnext<CR>
 nnoremap <A-p> :bprevious<CR>
-"
-

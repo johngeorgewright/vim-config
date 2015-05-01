@@ -110,6 +110,27 @@ let g:ctrlp_custom_ignore = {
 " Indent Guides
 let g:indent_guides_enable_on_vim_startup = 1
 
+" Rainbow Parentheses
+let g:rbpt_colorpairs = [
+    \ ['red',         'tomato'],
+    \ ['brown',       'peru'],
+    \ ['blue',        'LightSkyBlue'],
+    \ ['gray',        'snow2'],
+    \ ['green',       'LightGreen'],
+    \ ['magenta',     'magenta1'],
+    \ ['cyan',        'LightCyan'],
+    \ ['darkred',     'firebrick'],
+    \ ['darkblue',    'RoyalBlue3'],
+    \ ['gray',        'seashell4'],
+    \ ['darkgreen',   'DarkGreen'],
+    \ ['darkmagenta', 'magenta4'],
+    \ ['darkcyan',    'DarkCyan'],
+    \ ]
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+
 " Nerd Tree
 map <F2> :NERDTreeToggle<CR>
 

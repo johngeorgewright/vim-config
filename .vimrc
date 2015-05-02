@@ -23,7 +23,7 @@ nnoremap <F4> :GundoToggle<CR>
 filetype plugin on
 syntax on
 au BufNewFile,BufRead .bowerrc set filetype=json
-au BufNewFile,BufRead .eslint set filetype=json
+au BufNewFile,BufRead .eslintrc set filetype=json
 au BufNewFile,BufRead *.conf set filetype=apache
 au BufNewFile,BufRead Jakefile set filetype=javascript
 au BufNewFile,BufRead *.jpt set filetype=xml

@@ -118,12 +118,12 @@ let g:rbpt_colorpairs = [
     \ ['blue',        'LightSkyBlue'],
     \ ['gray',        'snow2'],
     \ ['green',       'LightGreen'],
-    \ ['magenta',     'magenta1'],
+    \ ['magenta',     'HotPink'],
     \ ['cyan',        'LightCyan'],
     \ ['darkred',     'firebrick'],
     \ ['darkblue',    'RoyalBlue3'],
     \ ['darkgreen',   'DarkGreen'],
-    \ ['darkmagenta', 'magenta4'],
+    \ ['darkmagenta', 'magenta'],
     \ ['darkcyan',    'DarkCyan'],
     \ ]
 au VimEnter * RainbowParenthesesToggle

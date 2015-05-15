@@ -154,3 +154,7 @@ let g:javascript_conceal_super      = "Ω"
 " Buffer switching
 nnoremap <A-n> :bnext<CR>
 nnoremap <A-p> :bprevious<CR>
+
+" Project Management
+let g:project_use_nerdtree = 1
+set rtp+=~/.vim/bundle/project

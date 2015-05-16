@@ -48,14 +48,14 @@ Updating
 Once you've installed this VIM package, you can always check and install updates. Run:
 
 ```sh
-cd $HOME/.vim && git pull origin master && git submodule update
+cd $HOME/.vim && git pull origin master && git submodule update --init
 ```
 
 Or, you can save the above line as a bash alias:
 
 ```sh
 # ~/.bashrc
-alias updatevim="cd $HOME/.vim && git pull origin master && git submodule update"
+alias updatevim="cd $HOME/.vim && git pull origin master && git submodule update --init"
 ```
 
 What comes bundled?

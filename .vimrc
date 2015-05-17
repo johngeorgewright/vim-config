@@ -30,6 +30,7 @@ au BufNewFile,BufRead *.jpt set filetype=xml
 au BufNewFile,BufRead *.thor set filetype=ruby
 au BufNewFile,BufRead Guardfile set filetype=ruby
 au BufNewFile,BufRead Gemfile set filetype=ruby
+au BufNewFile,BufRead *.tag setlocal ft=javascript
 set efm=jade:%f:%l:%c:%t:%m
 augroup markdown
   au!
@@ -122,7 +123,7 @@ let g:rbpt_colorpairs = [
     \ ['cyan',        'LightCyan'],
     \ ['darkred',     'firebrick'],
     \ ['darkblue',    'RoyalBlue3'],
-    \ ['darkgreen',   'DarkGreen'],
+    \ ['darkgreen',   'MediumSeaGreen'],
     \ ['darkmagenta', 'magenta'],
     \ ['darkcyan',    'DarkCyan'],
     \ ]

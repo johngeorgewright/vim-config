@@ -193,3 +193,6 @@
 [submodule "bundle/project"]
 	path = bundle/project
 	url = https://github.com/amiorin/vim-project.git
+[submodule "bundle/jsx-riot"]
+	path = bundle/jsx-riot
+	url = https://github.com/nicklasos/vim-jsx-riot.git

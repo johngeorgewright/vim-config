@@ -133,10 +133,8 @@ au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
 " Nerd Tree
-map <F2> :NERDTreeTabsToggle<CR>
-
-" TagList
-map <F3> :Tlist<CR>
+map <S-F2> :NERDTreeTabsToggle<CR>
+map <F2> :NERDTreeFocusToggle<CR>
 
 " Opening files
 set suffixesadd=.coffee,.js

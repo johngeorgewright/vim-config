@@ -84,7 +84,7 @@ What comes bundled?
 - [Markdown](https://github.com/tpope/vim-markdown.git) - This is mainly used for the literal coffee plugin
 - [MRU](https://github.com/vim-scripts/mru.vim)
 - [Mustache](https://github.com/juvenn/mustache.vim)
-- [NerdTree](https://github.com/scrooloose/nerdtree) - This has been mapped to &lt;F2&gt;
+- [NerdTree](https://github.com/scrooloose/nerdtree) - Toggling focus has been mapped to &lt;F2&gt; and toggling the view has been mapped to &lt;S-F2&gt;
 - [RVM](https://github.com/tpope/vim-rvm)
 - [Shell](https://github.com/johngeorgewright/shell.vim)
 - [Slim](https://github.com/slim-template/vim-slim)

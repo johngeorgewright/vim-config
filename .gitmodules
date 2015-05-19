@@ -196,3 +196,6 @@
 [submodule "bundle/jsx-riot"]
 	path = bundle/jsx-riot
 	url = https://github.com/nicklasos/vim-jsx-riot.git
+[submodule "bundle/elixir"]
+	path = bundle/elixir
+	url = https://github.com/elixir-lang/vim-elixir.git

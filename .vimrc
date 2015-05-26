@@ -132,7 +132,7 @@ au Syntax !clojure IndentGuidesEnable
 " au Syntax * RainbowParenthesesLoadSquare
 " au Syntax * RainbowParenthesesLoadBraces
 let g:rainbow_conf = {
-    \   'guifgs': ['tomato', 'peru', 'LightSkyBlue', 'snow2', 'LightGreen', 'HotPink', 'LightCyan', 'firebrick', 'RoyalBlue3', 'MediumSeaGreen', 'magenta', 'DarkCyan'],
+    \   'guifgs': ['tomato', 'peru', 'LightSkyBlue', 'AntiqueWhite2', 'LightGreen', 'HotPink', 'LightYellow', 'firebrick1', 'RoyalBlue3', 'MediumSeaGreen', 'magenta', 'DarkCyan'],
     \   'ctermfgs': ['lightblue', 'lightyellow', 'lightcyan', 'lightmagenta'],
     \   'operators': '_,_',
     \   'parentheses': ['start=/(/ end=/)/ fold', 'start=/\[/ end=/\]/ fold', 'start=/{/ end=/}/ fold'],
@@ -152,7 +152,6 @@ let g:rainbow_conf = {
     \       },
     \       'xml': {
     \           'parentheses': ['start=/\v\<((area|base|br|col|embed|hr|img|input|keygen|link|menuitem|meta|param|source|track|wbr)\_[ >])@!\z([-_:a-zA-Z0-9]+)(\_s+[-_:a-zA-Z0-9]+(\=("\_[^"]*"|'."'".'\_[^'."'".']*'."'".'|\_[^ '."'".'"><=`]*))?)*\>/ end=#</\z1># fold'],
-    \       },
     \       }
     \   }
     \}

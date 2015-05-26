@@ -155,7 +155,7 @@ let g:rainbow_conf = {
     \       }
     \   }
     \}
-au Syntax * RainbowToggle
+let g:rainbow_active = 1
 
 " Nerd Tree
 map <S-F2> :NERDTreeTabsToggle<CR>

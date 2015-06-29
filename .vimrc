@@ -179,6 +179,15 @@ let g:javascript_conceal_super      = "Ω"
 nnoremap <A-n> :bnext<CR>
 nnoremap <A-p> :bprevious<CR>
 
+" Getting NERDTree and Startify to play nice
+autocmd VimEnter *
+    \   if !argc()
+    \ |   Startify
+    \ |   NERDTree
+    \ |   wincmd w
+    \ | endif
+let NERDTreeHijackNetrw = 0
+
 " Project Management
 " let g:project_use_nerdtree = 1
 " set rtp+=~/.vim/bundle/project

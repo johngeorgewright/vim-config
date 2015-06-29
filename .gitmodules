@@ -187,9 +187,6 @@
 [submodule "bundle/MatchTag"]
 	path = bundle/MatchTag
 	url = https://github.com/gregsexton/MatchTag
-[submodule "bundle/project"]
-	path = bundle/project
-	url = https://github.com/amiorin/vim-project.git
 [submodule "bundle/jsx-riot"]
 	path = bundle/jsx-riot
 	url = https://github.com/nicklasos/vim-jsx-riot.git
@@ -202,3 +199,6 @@
 [submodule "bundle/nerdtree-git-plugin"]
 	path = bundle/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
+[submodule "bundle/startify"]
+	path = bundle/startify
+	url = https://github.com/mhinz/vim-startify

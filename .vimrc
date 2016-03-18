@@ -146,12 +146,6 @@ let g:rainbow_conf = {
     \       },
     \       'vim': {
     \           'parentheses': ['start=/(/ end=/)/', 'start=/\[/ end=/\]/', 'start=/{/ end=/}/ fold', 'start=/(/ end=/)/ containedin=vimFuncBody', 'start=/\[/ end=/\]/ containedin=vimFuncBody', 'start=/{/ end=/}/ fold containedin=vimFuncBody'],
-    \       },
-    \       'html': {
-    \           'parentheses': ['start=/\v\<((area|base|br|col|embed|hr|img|input|keygen|link|menuitem|meta|param|source|track|wbr)\_[ >])@!\z([-_:a-zA-Z0-9]+)(\_s+[-_:a-zA-Z0-9]+(\=("\_[^"]*"|'."'".'\_[^'."'".']*'."'".'|\_[^ '."'".'"><=`]*))?)*\>/ end=#</\z1># fold'],
-    \       },
-    \       'xml': {
-    \           'parentheses': ['start=/\v\<((area|base|br|col|embed|hr|img|input|keygen|link|menuitem|meta|param|source|track|wbr)\_[ >])@!\z([-_:a-zA-Z0-9]+)(\_s+[-_:a-zA-Z0-9]+(\=("\_[^"]*"|'."'".'\_[^'."'".']*'."'".'|\_[^ '."'".'"><=`]*))?)*\>/ end=#</\z1># fold'],
     \       }
     \   }
     \}

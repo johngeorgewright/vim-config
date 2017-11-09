@@ -199,3 +199,6 @@
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "bundle/flow"]
+	path = bundle/flow
+	url = https://github.com/flowtype/vim-flow.git

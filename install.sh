@@ -18,7 +18,7 @@ command cd bundle/vimproc
 command make
 
 echo "runtime .vimrc" > $HOME/.vimrc
-echo "\" Project Management" >> $HOME/.vimrc
+# echo "\" Project Management" >> $HOME/.vimrc
 # echo "\" call project#rc(\"~/Workspace\")" >> $HOME/.vimrc
 # echo "\" See https://github.com/amiorin/vim-project#configure on configuring projects" >> $HOME/.vimrc
 

@@ -32,6 +32,7 @@ au BufNewFile,BufRead Guardfile set filetype=ruby
 au BufNewFile,BufRead Gemfile set filetype=ruby
 au BufNewFile,BufRead *.tag setlocal ft=javascript
 set efm=jade:%f:%l:%c:%t:%m
+set efm=pug:%f:%l:%c:%t:%m
 augroup markdown
   au!
   au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
@@ -92,6 +93,7 @@ au BufNewFile,BufReadPost *.coffee setl foldmethod=indent
 au BufNewFile,BufReadPost *.ls setl foldmethod=indent
 au BufNewFile,BufReadPost *.haml setl foldmethod=indent
 au BufNewFile,BufReadPost *.jade setl foldmethod=indent
+au BufNewFile,BufReadPost *.pug setl foldmethod=indent
 au BufNewFile,BufReadPost *.yml setl foldmethod=indent
 au BufNewFile,BufReadPost *.yaml setl foldmethod=indent
 
@@ -159,15 +161,15 @@ map <F2> :NERDTreeFocusToggle<CR>
 set suffixesadd=.coffee,.js
 
 " javascript concealers
-let g:javascript_conceal_function   = "ƒ"
-let g:javascript_conceal_null       = "ø"
-let g:javascript_conceal_this       = "@"
-let g:javascript_conceal_return     = "⇚"
-let g:javascript_conceal_undefined  = "¿"
-let g:javascript_conceal_NaN        = "ℕ"
-let g:javascript_conceal_prototype  = "¶"
-let g:javascript_conceal_static     = "•"
-let g:javascript_conceal_super      = "Ω"
+" let g:javascript_conceal_function   = "ƒ"
+" let g:javascript_conceal_null       = "ø"
+" let g:javascript_conceal_this       = "@"
+" let g:javascript_conceal_return     = "⇚"
+" let g:javascript_conceal_undefined  = "¿"
+" let g:javascript_conceal_NaN        = "ℕ"
+" let g:javascript_conceal_prototype  = "¶"
+" let g:javascript_conceal_static     = "•"
+" let g:javascript_conceal_super      = "Ω"
 
 " Buffer switching
 nnoremap <A-n> :bnext<CR>
